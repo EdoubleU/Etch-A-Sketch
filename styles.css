@@ -1,0 +1,45 @@
+h1{
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#container {
+  border: 1px solid white;
+  max-width: 640px;
+}
+
+div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.square {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  border: solid rgb(185, 184, 184);
+  border-collapse: collapse;
+  border-width: thin;
+  box-sizing: border-box;
+  vertical-align: top;   
+}
+
+button{
+  font-family: sans-serif;
+  font-size: medium;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(88, 183, 212);
+  border: none;
+  border-radius: 15px;
+
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(104, 188, 243);
+}
